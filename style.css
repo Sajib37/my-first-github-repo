@@ -9,3 +9,9 @@
     border: 5px solid black;
     border-radius: 50%;
 }
+.blog1{
+    background-color: red;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 10px;
+}
