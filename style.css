@@ -25,4 +25,38 @@ header{
     margin-right: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    cursor:pointer;
+}
+.banner-container{
+    height: 750px;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+
+}
+.article{
+    width: 700px;
+}
+.article h1{
+    color: white;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.article p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.article button{
+    background-color: crimson;
+    padding: 10px;
+    border: 2px solid crimson;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.banner-image img{
+    width: 350px;
 }
